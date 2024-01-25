@@ -1,0 +1,198 @@
+{
+  "address": "0x581510dE04cCa8bea486d48cAb3983D16F7D58B6",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_minter",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requested",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "available",
+          "type": "uint256"
+        }
+      ],
+      "name": "InsufficientBalance",
+      "type": "error"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "from",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "to",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "Sent",
+      "type": "event"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "balances",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "receiver",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "mint",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "minter",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "receiver",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "amount",
+          "type": "uint256"
+        }
+      ],
+      "name": "send",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "transactionHash": "0xc6f86eca1b6a0eb8ae682ca8c60c67480714e785b1c54ec5c3b176210f51a641",
+  "receipt": {
+    "to": null,
+    "from": "0x467ddbc40cb6D72aA2D8Ed22D11b10033321A98a",
+    "contractAddress": "0x581510dE04cCa8bea486d48cAb3983D16F7D58B6",
+    "transactionIndex": 1,
+    "gasUsed": "235601",
+    "logsBloom": "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "blockHash": "0x12f872075a687e68a840784afe54e8ee845d8927f84af41e1ff16825ef0dcde1",
+    "transactionHash": "0xc6f86eca1b6a0eb8ae682ca8c60c67480714e785b1c54ec5c3b176210f51a641",
+    "logs": [],
+    "blockNumber": 4564838,
+    "cumulativeGasUsed": "282490",
+    "status": 1,
+    "byzantium": true
+  },
+  "args": [
+    "0xF512c18f06F6CF729d1e633D1cD1511D49eaE5A0"
+  ],
+  "numDeployments": 1,
+  "solcInputHash": "c2d788e74fd3ab2e4dd3a3dc6ef2f845",
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"address\",\"name\":\"_minter\",\"type\":\"address\"}],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"requested\",\"type\":\"uint256\"},{\"internalType\":\"uint256\",\"name\":\"available\",\"type\":\"uint256\"}],\"name\":\"InsufficientBalance\",\"type\":\"error\"},{\"anonymous\":false,\"inputs\":[{\"indexed\":false,\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"address\",\"name\":\"to\",\"type\":\"address\"},{\"indexed\":false,\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"Sent\",\"type\":\"event\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"name\":\"balances\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiver\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"mint\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"minter\",\"outputs\":[{\"internalType\":\"address\",\"name\":\"\",\"type\":\"address\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"receiver\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"amount\",\"type\":\"uint256\"}],\"name\":\"send\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"contracts/YourContract.sol\":\"YourContract\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\",\"useLiteralContent\":true},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"contracts/YourContract.sol\":{\"content\":\"// SPDX-License-Identifier: GPL-3.0\\npragma solidity ^0.8.4;\\n\\ncontract YourContract {\\n\\t// The keyword \\\"public\\\" makes variables\\n\\t// accessible from other contracts\\n\\taddress public minter;\\n\\tmapping(address => uint) public balances;\\n\\n\\t// Events allow clients to react to specific\\n\\t// contract changes you declare\\n\\tevent Sent(address from, address to, uint amount);\\n\\n\\t// Constructor code is only run when the contract\\n\\t// is created\\n\\tconstructor(address _minter) {\\n\\t\\tminter = _minter;\\n\\t}\\n\\n\\t// Sends an amount of newly created coins to an address\\n\\t// Can only be called by the contract creator\\n\\tfunction mint(address receiver, uint amount) public {\\n\\t\\t// require(msg.sender == minter);\\n\\t\\tbalances[receiver] += amount;\\n\\t}\\n\\n\\t// Errors allow you to provide information about\\n\\t// why an operation failed. They are returned\\n\\t// to the caller of the function.\\n\\terror InsufficientBalance(uint requested, uint available);\\n\\n\\t// Sends an amount of existing coins\\n\\t// from any caller to an address\\n\\tfunction send(address receiver, uint amount) public {\\n\\t\\tif (amount > balances[msg.sender])\\n\\t\\t\\trevert InsufficientBalance({\\n\\t\\t\\t\\trequested: amount,\\n\\t\\t\\t\\tavailable: balances[msg.sender]\\n\\t\\t\\t});\\n\\n\\t\\tbalances[msg.sender] -= amount;\\n\\t\\tbalances[receiver] += amount;\\n\\t\\temit Sent(msg.sender, receiver, amount);\\n\\t}\\n}\\n\",\"keccak256\":\"0x4e5c606c3a9615044b9452f6eb4fca8c9c8631e90ae0bb0c176f84dbe7a7a61e\",\"license\":\"GPL-3.0\"}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060405161036e38038061036e83398101604081905261002f91610054565b600080546001600160a01b0319166001600160a01b0392909216919091179055610084565b60006020828403121561006657600080fd5b81516001600160a01b038116811461007d57600080fd5b9392505050565b6102db806100936000396000f3fe608060405234801561001057600080fd5b506004361061004c5760003560e01c8063075461721461005157806327e235e31461008157806340c10f19146100af578063d0679d34146100c4575b600080fd5b600054610064906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6100a161008f366004610217565b60016020526000908152604090205481565b604051908152602001610078565b6100c26100bd366004610239565b6100d7565b005b6100c26100d2366004610239565b610108565b6001600160a01b038216600090815260016020526040812080548392906100ff908490610279565b90915550505050565b3360009081526001602052604090205481111561015d57336000908152600160205260409081902054905163cf47918160e01b8152610154918391600401918252602082015260400190565b60405180910390fd5b336000908152600160205260408120805483929061017c908490610292565b90915550506001600160a01b038216600090815260016020526040812080548392906101a9908490610279565b9091555050604080513381526001600160a01b03841660208201529081018290527f3990db2d31862302a685e8086b5755072a6e2b5b780af1ee81ece35ee3cd33459060600160405180910390a15050565b80356001600160a01b038116811461021257600080fd5b919050565b60006020828403121561022957600080fd5b610232826101fb565b9392505050565b6000806040838503121561024c57600080fd5b610255836101fb565b946020939093013593505050565b634e487b7160e01b600052601160045260246000fd5b8082018082111561028c5761028c610263565b92915050565b8181038181111561028c5761028c61026356fea2646970667358221220d8cfb3e1234b11c997f300ad0658254d4e7ea60ff94d5e4fec3083451537e76e64736f6c63430008110033",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061004c5760003560e01c8063075461721461005157806327e235e31461008157806340c10f19146100af578063d0679d34146100c4575b600080fd5b600054610064906001600160a01b031681565b6040516001600160a01b0390911681526020015b60405180910390f35b6100a161008f366004610217565b60016020526000908152604090205481565b604051908152602001610078565b6100c26100bd366004610239565b6100d7565b005b6100c26100d2366004610239565b610108565b6001600160a01b038216600090815260016020526040812080548392906100ff908490610279565b90915550505050565b3360009081526001602052604090205481111561015d57336000908152600160205260409081902054905163cf47918160e01b8152610154918391600401918252602082015260400190565b60405180910390fd5b336000908152600160205260408120805483929061017c908490610292565b90915550506001600160a01b038216600090815260016020526040812080548392906101a9908490610279565b9091555050604080513381526001600160a01b03841660208201529081018290527f3990db2d31862302a685e8086b5755072a6e2b5b780af1ee81ece35ee3cd33459060600160405180910390a15050565b80356001600160a01b038116811461021257600080fd5b919050565b60006020828403121561022957600080fd5b610232826101fb565b9392505050565b6000806040838503121561024c57600080fd5b610255836101fb565b946020939093013593505050565b634e487b7160e01b600052601160045260246000fd5b8082018082111561028c5761028c610263565b92915050565b8181038181111561028c5761028c61026356fea2646970667358221220d8cfb3e1234b11c997f300ad0658254d4e7ea60ff94d5e4fec3083451537e76e64736f6c63430008110033",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  },
+  "storageLayout": {
+    "storage": [
+      {
+        "astId": 3,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "minter",
+        "offset": 0,
+        "slot": "0",
+        "type": "t_address"
+      },
+      {
+        "astId": 7,
+        "contract": "contracts/YourContract.sol:YourContract",
+        "label": "balances",
+        "offset": 0,
+        "slot": "1",
+        "type": "t_mapping(t_address,t_uint256)"
+      }
+    ],
+    "types": {
+      "t_address": {
+        "encoding": "inplace",
+        "label": "address",
+        "numberOfBytes": "20"
+      },
+      "t_mapping(t_address,t_uint256)": {
+        "encoding": "mapping",
+        "key": "t_address",
+        "label": "mapping(address => uint256)",
+        "numberOfBytes": "32",
+        "value": "t_uint256"
+      },
+      "t_uint256": {
+        "encoding": "inplace",
+        "label": "uint256",
+        "numberOfBytes": "32"
+      }
+    }
+  }
+}
